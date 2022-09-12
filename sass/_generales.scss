@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+button.btn-primary{
+    background-color:#FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.botones{
+    text-align: center;
+}
+
+.fotoInicio{
+    justify-content: center;
+    text-align: center;
+}
+
+img.fotoLocal{
+    align-items: center;
+    text-align: center;
+    width: 75%;
+}
+
+.parrafoServicios{
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    padding-left: 10px;
+    position: right;
+}
+
+div.mapa{
+    text-align: center;
+}
+
+.articulo{
+    text-align: center;
+    margin: 1px 1px 1px 1px;
+}
+
+.articuloInicio{
+    display: flex;
+    width: 50%;
+}
+
+.imgInicio{
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 5px;
+}
+
+.sombreado {
+    -webkit-box-shadow: 13px 12px 5px -10px rgba(196,194,196,0.72);
+    -moz-box-shadow: 13px 12px 5px -10px rgba(196,194,196,0.72);
+    box-shadow: 13px 12px 5px -10px rgba(196,194,196,0.72);
+}
+
+.titulo{
+    color: #FFFFFF;
+}
+
+header.cabecera{
+    background-color: black;
+}
+
+.flexHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.cabecera{
+    padding: 0px;
+    padding-top: 10px;
+}
+
+.flexNavbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.subtitulo{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.casillaBuscar{
+    width: 30%;
+}
+
+.h2Subtitulo{
+    background-color: #FFFFFF;
+    font-size: xxx-large;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+section.contenido{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section.subtitulo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.formTitulo{
+    display: flex;
+    align-items: flex-start;
+}
+
+section.filtros{
+    padding-left: 20%;
+}

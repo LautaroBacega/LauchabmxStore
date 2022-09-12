@@ -1,0 +1,617 @@
+@import "fuentes";
+@import "generales";
+@import "areasGrids";
+@import "transiciones";
+@import "color";
+@import "footer";
+@import "filtros";
+@import "header";
+@import "nav";
+@import "section";
+@import "flexbox";
+@import "team";
+@import "servicios";
+
+
+@media (min-width:320px){
+    .grilla{
+        display: grid;
+        grid-template-areas: 
+        "cabecera"
+        "barraNavegacion"
+        "subtitulo"
+        "filtrosDesplegable"
+        "filtros"
+        "productos"
+        "piePagina"; 
+        width: 100%;
+        height: 100vh;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 950px;
+    }
+
+    .flexArticulos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .articulo {
+        width: 45%;
+    }
+
+    .grillaInicio{
+        display: grid;
+        grid-template-areas: 
+        "cabecera"
+        "barraNavegacion"
+        "subtitulo"
+        "img"
+        "contenido"
+        "piePagina";
+    }
+    
+    .flexHeader{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexInicio{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .articuloInicio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgInicio{
+        align-items: center;
+        width: 100px;
+        height: 100px;
+    }
+
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .imgArticulo{
+        width: 100%;
+    }
+    
+    .grillaServicios{
+        display: grid;
+        grid-template-areas: 
+        "cabecera"
+        "barraNavegacion"
+        "subtitulo"
+        "servicios"
+        "piePagina";
+        grid-template-rows: 1fr 1fr 1fr 750px;
+        grid-template-columns: 100%;
+    }
+
+    .flexServicios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p.parrafosServicios{
+        text-align: center;
+        font-size: 13px;
+        margin: 0px 20px 20px 20px;
+    }
+
+    .imgServicios{
+        margin-top: 10px;
+        padding: 10px;
+        width: 300px;
+    }
+    
+    .grillaTeam{
+        display: grid;
+        grid-template-areas: 
+        "cabecera"
+        "barraNavegacion"
+        "subtitulo"
+        "teamSection"
+        "piePagina";
+        grid-template-rows: 1fr 1,1fr 10px 2600px;
+    }
+
+    p.parrafosTeam{
+        text-align: center;
+        margin: 20px 10px 20px 10px;
+    }
+
+    h5.pieInfo{
+        font-size: 13px;
+    }
+
+    .pie{
+        display: flex;
+        align-items: center;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .redes{
+        padding: 0px;
+    }
+
+    .pie{
+        display: flex;
+        flex-direction: column;
+    }
+
+    img.imgPng{
+        width: 30px;
+        height: 30px;
+        margin: 5px 5px 5px 5px;
+    }
+
+    .centrar{
+        display: flex;
+        align-items: center;
+    }
+}
+    
+
+@media (min-width:480px){
+    .grilla{
+        display: grid;
+        grid-template-areas: 
+        "cabecera"
+        "barraNavegacion"
+        "subtitulo"
+        "filtrosDesplegable"
+        "filtros"
+        "productos"
+        "piePagina";
+        grid-template-rows: 1fr 1fr 1fr 1fr 1px 750px;
+    }
+    .imgArticulo{
+        width: 100%;
+    }
+
+    .flexArticulos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .articulo {
+        width: 30%;
+    }
+
+    .grillaInicio{
+        display: grid;
+        grid-template-areas: 
+        "cabecera"
+        "barraNavegacion"
+        "subtitulo"
+        "img"
+        "contenido"
+        "piePagina";
+        grid-template-rows: 1fr 1fr 100px 170px 600px 300px;
+    }
+
+    .flexInicio{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .grillaServicios{
+        display: grid;
+        grid-template-areas: 
+        "cabecera"
+        "barraNavegacion"
+        "subtitulo"
+        "servicios"
+        "piePagina";
+        grid-template-rows: 1fr 1fr 120px 830px;
+    }
+
+    p.parrafosServicios{
+        text-align: center;
+    }
+
+    .imgServicios{
+        width: 400px;
+    }
+    
+    .grillaTeam{
+        display: grid;
+        grid-template-areas: 
+        "cabecera"
+        "barraNavegacion"
+        "subtitulo"
+        "teamSection"
+        "piePagina";
+        grid-template-rows: 1fr 1,1fr 10px 2600px;
+    }
+
+    p.parrafosTeam{
+        text-align: center;
+    }
+
+    h5.pieInfo{
+        font-size: 13px;
+    }
+
+    ul.pie{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-left: 15px;
+    }
+
+    img.imgPng{
+        width: 40px;
+        height: 40px;
+    }
+
+    .imgTeam{
+        width: 60%;
+    }
+}
+
+@media (min-width:768px){
+    .grilla{
+        display: grid;
+        grid-template-areas: 
+        "cabecera cabecera"
+        "barraNavegacion barraNavegacion"
+        "subtitulo subtitulo"
+        "filtrosDesplegable filtrosDesplegable"
+        "filtros productos"
+        "piePagina piePagina";
+        grid-template-rows: 1fr 1fr 1fr 1fr 750px;
+        grid-template-columns: 20% 80%;
+    }
+
+    .imgArticulo{
+        width: 100%;
+    }
+
+    .flexHeader{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flexArticulos{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .articulo {
+        width: 30%;
+    }
+
+    .grillaInicio{
+        display: grid;
+        grid-template-areas: 
+        "cabecera"
+        "barraNavegacion"
+        "subtitulo"
+        "img"
+        "contenido"
+        "piePagina";
+        grid-template-rows: 1fr 1fr 100px 220px 250px;
+        grid-template-columns: 100%;
+    }
+
+    .botones{
+        text-align: center;
+    }
+
+    .flexInicio{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .articuloInicio{
+        margin-top: 2%;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px;
+        text-align: center;
+    }
+
+    div.mapa{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 10px;
+    }
+    
+    .grillaServicios{
+        display: grid;
+        grid-template-areas: 
+        "cabecera"
+        "barraNavegacion"
+        "subtitulo"
+        "servicios"
+        "piePagina";
+        grid-template-rows: 1fr 1fr 120px 1000px;
+        grid-template-columns: 100%;
+    }
+
+    p.parrafosServicios{
+        text-align: center;
+    }
+
+    .imgServicios{
+        width: 500px;
+    }
+    
+    .grillaTeam{
+        display: grid;
+        grid-template-areas: 
+        "cabecera"
+        "barraNavegacion"
+        "subtitulo"
+        "teamSection"
+        "piePagina";
+        grid-template-rows: 1fr 1fr 1fr 750px 300px;
+        grid-template-columns: 100%;
+    }
+
+    .imgTeam{
+        width: 120%;
+    }
+
+    p.parrafosServicios{
+        margin: 0px 50px 20px 50px;
+    }
+
+    .row{
+        align-items: baseline;
+    }
+
+    p.parrafosTeam{
+        text-align: center;
+        margin: 20px 100px 20px 100px;
+    }
+
+    div.fotos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    h5.pieInfo{
+        font-size: 13px;
+    }
+
+    div.flexInicio{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    ul.pie{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width:1024px){
+    .grilla{
+        display: grid;
+        grid-template-areas:
+        "cabecera cabecera" 
+        "barraNavegacion barraNavegacion"
+        "subtitulo subtitulo"
+        "filtrosDesplegable filtrosDesplegable"
+        "filtros productos"
+        "piePagina piePagina";
+        grid-template-rows: 1fr 1fr 1fr 1fr 550px;
+        grid-template-columns: 15% 85%;
+    }
+
+    .flexArticulos{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .articulo {
+        width: 24%;
+    }
+    
+    .grillaInicio{
+        display: grid;
+        grid-template-areas: 
+        "cabecera"
+        "barraNavegacion"
+        "subtitulo"
+        "img"
+        "contenido"
+        "piePagina";
+        grid-template-rows: 1fr 1fr 100px 250px 220px;
+        grid-template-columns: 100%;
+    }
+
+    .flexInicio{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .grillaServicios{
+        display: grid;
+        grid-template-areas: 
+        "cabecera"
+        "barraNavegacion"
+        "subtitulo"
+        "servicios"
+        "piePagina";
+        grid-template-rows: 1fr 1fr 120px 470px;
+        grid-template-columns: 100%;
+    }
+
+    .flexServicios{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    p.parrafosServicios{
+        text-align: center;
+    }
+    
+    img.imgServicios{
+        width: 80%;
+    }
+
+    .grillaTeam{
+        display: grid;
+        grid-template-areas: 
+        "cabecera"
+        "barraNavegacion"
+        "subtitulo"
+        "teamSection"
+        "piePagina";
+        grid-template-rows: 1fr 1fr 1fr 750px 250px;
+        grid-template-columns: 100%;
+    }
+
+    p.parrafosTeam{
+        text-align: center;
+        margin: 20px 200px 20px 200px;
+    }
+
+    h5.pieInfo{
+        font-size: 15px;
+    }
+
+    ul.pie{
+        margin-left: 50px;
+    }
+
+}
+
+@media (min-width:1200px){
+    .grilla{
+        display: grid;
+        grid-template-areas: 
+        "cabecera cabecera "
+        "barraNavegacion barraNavegacion      " 
+        "subtitulo subtitulo "
+        "filtrosDesplegable filtrosDesplegable "
+        "filtros productos "
+        "piePagina piePagina ";
+        grid-template-rows: 1fr 1fr 1fr 1fr 600px ;
+        grid-template-columns: 10% 90%;
+    }
+
+    .flexArticulos{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .articulo {
+        width: 24%;
+    }
+    
+    .grillaInicio{
+        display: grid;
+        grid-template-areas: 
+        "cabecera"
+        "barraNavegacion"
+        "subtitulo"
+        "img"
+        "contenido"
+        "piePagina";
+        grid-template-rows: 1fr 1fr 50px 320px 250px;
+        grid-template-columns: 100%;
+    }
+
+    .flexInicio{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .imgInicio{
+        width: 100px;
+        height: 100px;
+    }
+
+    .grillaServicios{
+        display: grid;
+        grid-template-areas:
+        "cabecera" 
+        "barraNavegacion"
+        "subtitulo"
+        "servicios"
+        "piePagina";
+        grid-template-rows: 1fr 1fr 150px 470px;
+        grid-template-columns: 100%;
+    }
+
+    img.imgServicios{
+        width: 95%;
+    }
+
+    p.parrafosServicios{
+        margin: 20px 60px 20px 60px;
+        text-align: center;
+    }
+
+    section.servicios{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .grillaTeam{
+        display: grid;
+        grid-template-areas: 
+        "cabecera" 
+        "barraNavegacion"
+        "subtitulo"
+        "teamSection"
+        "piePagina";
+        grid-template-rows: 1fr 1fr 100px 800px;
+        grid-template-columns: 100%;
+    }
+
+    /*FOOTER*/
+
+    h5.pieInfo{
+        font-size: 15px;
+    }
+
+    ul.pie{
+        padding: 0px;
+    }
+
+    img.imgPng{
+        width: 50px;
+        height: 50px;
+        margin: 5px 5px 5px 5px;
+    }
+}
+
+@media (min-width:1201px){
+
+    .imgArticulo{
+        width: 60%;
+    }
+
+    img.imgServicios {
+        width: 65%;
+    }
+}

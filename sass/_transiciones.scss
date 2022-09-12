@@ -1,0 +1,15 @@
+/*Transiciones_________________________________________________________________________________________*/
+
+.navegacion:hover{
+    border-radius: 20%;
+    transform: scale(3);
+    transition: all 1s;
+}
+
+.articulo:hover{
+    transform: scale(1.05);
+}
+
+.iconos:hover{
+    transform: scale(1.5);
+}

@@ -1,0 +1,26 @@
+/*NAV----------------------------------*/
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+}
+
+header{
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-weight: bolder;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
+}

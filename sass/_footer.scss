@@ -1,0 +1,41 @@
+footer{
+
+    padding: 30px;
+
+    div.redes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 10px;
+        text-align: center;
+
+        ul.pie{
+            padding: 0px;
+            margin:0px 0px 0px 0px;
+
+            img.imgPng{
+                
+                
+            }
+
+            li.h5.pieInfo{
+                font-size: 15px;
+            }
+        }
+    }
+
+    /*Botones*/
+    div{
+        div.botones{
+            margin-left: 30px;
+        }
+    }
+
+    /*Redes*/
+    div.redes{
+
+        ul.iconosPadding{
+            padding: 0px;
+        }
+    }
+}

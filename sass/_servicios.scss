@@ -1,0 +1,27 @@
+.servicios{
+    padding: 5px;
+}
+
+.flexServicios{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.fleximgServicios{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    margin: 0px 0px 0px 0px;
+}
+
+.subtitulosServicios{
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 50%;
+    margin: 0px 0px 3% 25%;
+}
